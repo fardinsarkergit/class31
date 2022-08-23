@@ -1,0 +1,745 @@
+
+/* XLL Start ++++++++++++++++++++++++++++++++++++++++++++++++++++++-------------------------- */
+
+@media (max-width: 1400px) {
+
+    .sec8 .box {
+        width: 365px;
+    }
+
+}
+
+
+
+
+
+/* XLL End ++++++++++++++++++++++++++++++++++++++++++++++++++++++-------------------------- */
+
+
+
+
+
+
+
+/* XL Start ++++++++++++++++++++++++++++++++++++++++++++++++++++++-------------------------- */
+
+@media (max-width: 1200px) {
+
+    .megamenu{
+        min-width: 1100px;
+    }
+
+#banner p {
+    padding: 0;
+}
+
+#sec02 .row p {
+    padding: 0 20px;
+}
+
+
+
+/* Sec 5 Start =============================================================================== */
+
+.sec5 .working_container {
+    padding-left: 38px;
+}
+
+.sec5 .inner_part {
+    flex-direction: column-reverse;
+    margin-right: 10px;
+}
+
+#sec05 .info_image{
+    padding-bottom: 40px;
+}
+
+.sec5 .inner_part h4 {
+    margin-top: 0;
+}
+
+/* Sec 5 End =============================================================================== */
+
+
+
+
+/* Sec 7 Start =============================================================================== */
+
+#sec07{
+    padding: 0;
+    padding-top: 20px;
+}
+
+
+#sec07 .image {
+    width: 350px;
+    height: 350px;
+}
+
+#sec07 .info p {
+    font-size: 24px;
+}
+
+#sec07 .slider_items {
+    margin: 10px 0;
+}
+
+.prevArr , .nextArr{
+    display: none !important; 
+}
+
+/* Sec 7 End =============================================================================== */
+
+.sec8 .box {
+    width: 300px;
+}
+
+.sec8 .box .info h5 {
+    width: 300px;
+}
+
+
+}
+
+
+
+
+
+/* XL End ++++++++++++++++++++++++++++++++++++++++++++++++++++++-------------------------- */
+
+
+
+
+
+
+
+/* LG Start ++++++++++++++++++++++++++++++++++++++++++++++++++++++-------------------------- */
+
+@media (max-width: 992px) {
+
+
+#banner p{
+    margin: 0px -150px;
+    margin-bottom: 40px;
+}
+
+#sec02 .row p{
+    padding: 0 20px;
+}
+
+/* Sec 5 Start =============================================================================== */
+
+.sec5 .working_container {
+    padding-left: 38px;
+}
+
+.sec5 .inner_part {
+    flex-direction: column-reverse;
+    margin-right: 10px;
+}
+
+#sec05 .info_image{
+    padding-bottom: 40px;
+}
+
+.sec5 .inner_part h4 {
+    margin-top: 0;
+}
+
+/* Sec 5 End =============================================================================== */
+
+
+.sec6 .icon i{
+    margin-top: 170px;
+}
+
+
+/* Sec 7 Start =============================================================================== */
+
+#sec07{
+    padding: 0;
+    padding-top: 20px;
+}
+
+#sec07 .for_mobile_slider{
+    flex-direction: column-reverse;
+}
+
+#sec07 .image {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+#sec07 .info p {
+    font-size: 24px;
+}
+
+#sec07 .slider_items {
+    margin: 10px 0;
+}
+
+.prevArr , .nextArr{
+    display: none !important; 
+}
+
+/* Sec 7 End =============================================================================== */
+
+
+.sec8 .box {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+
+/* Footer Start =============================================================================== */
+
+footer .last ul{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer .para p{
+    text-align: center;
+}
+footer .afterr::before {
+    left: -20px;
+}
+
+/* Footer End =============================================================================== */
+
+
+}
+
+
+/* LG End ++++++++++++++++++++++++++++++++++++++++++++++++++++++-------------------------- */
+
+
+
+
+
+
+
+
+/* Md Start ++++++++++++++++++++++++++++++++++++++++++++++++++++++-------------------------- */
+
+@media (max-width: 768px) {
+
+    /* Banner Start =============================================================================== */
+    
+    .mode .dark {
+        margin-bottom: -15px;
+    }
+    
+    #banner .overlay{
+        padding: 0;
+        padding-top: 120px;
+        padding-bottom: 20px;
+    }
+    #banner h2 {
+        font-size: 14px;
+    }
+
+    #banner h1 {
+        font-size: 50px;
+    }
+    #banner p {
+        font-size: 20px;
+        padding: 0;
+        margin: 0 -60px;
+    }
+    
+    .ban_btn .btn_1 {
+        padding: 0 20px;
+        height: 50px;
+        line-height: 50px;
+        margin-top: 10px;
+    }
+
+    .ban_btn .btn_2 {
+        padding: 0 20px;
+        height: 50px;
+        line-height: 40px;
+        margin-top: 10px;
+    }
+/* Banner End =============================================================================== */
+
+
+
+
+/* Sec 1 Start =============================================================================== */
+
+#sec01 .col p{
+    padding: 0;
+}
+
+/* Sec 1 End =============================================================================== */
+
+
+/* Sec 2 Start =============================================================================== */
+
+#sec02 .row h2{
+    padding: 0;
+    padding-bottom: 20px;
+    font-size: 26px;
+    margin: 0 -20px ;
+}
+#sec02 .row p{
+    padding: 0;
+    padding-bottom: 20px;
+    margin: 0 -60px;
+}
+
+#sec02 .s2btns{
+    margin: 0 -20px;
+    padding-bottom: 50px;
+}
+
+/* Sec 2 End =============================================================================== */
+
+
+/* Sec 3 Start =============================================================================== */
+
+#sec03 .row .col-4{
+    width: 100%;
+}
+
+#sec03 a{
+    padding: 0 20px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 10px;
+}
+
+/* Sec 3 End =============================================================================== */
+
+
+
+
+/* Sec 5 Start =============================================================================== */
+
+.sec5 .working_container {
+    padding-left: 38px;
+}
+
+.sec5 .inner_part {
+    flex-direction: column-reverse;
+    margin-right: 10px;
+}
+
+#sec05 .info_image{
+    padding-bottom: 40px;
+}
+
+.sec5 .inner_part h4 {
+    margin-top: 0;
+}
+
+/* Sec 5 End =============================================================================== */
+
+
+
+
+/* Sec 6 Start =============================================================================== */
+
+.sec6 .icon i {
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.sec6 h2 {
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 35px;
+}
+
+/* Sec 6 End =============================================================================== */
+
+
+
+
+/* Sec 7 Start =============================================================================== */
+
+#sec07{
+    padding: 0;
+    padding-top: 20px;
+}
+
+#sec07 .for_mobile_slider{
+    flex-direction: column-reverse;
+}
+
+#sec07 .image {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+#sec07 .info p {
+    font-size: 24px;
+}
+
+.prevArr , .nextArr{
+    display: none !important; 
+}
+
+
+#sec07 .slider_items {
+    margin: 10px 0;
+}
+
+
+.prevArr , .nextArr{
+    display: none !important; 
+}
+
+/* Sec 7 End =============================================================================== */
+
+
+
+
+/* Sec 8 End =============================================================================== */
+
+.sec8 .box {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+/* Sec 8 End =============================================================================== */
+
+
+
+
+
+/* Sec 9 Start =============================================================================== */
+
+#sec09 .container {
+    width: 90%;
+}
+
+#sec09 h2 {
+    font-size: 26px;
+    margin: 0 20px;
+    margin-bottom: 30px;
+}
+
+
+#sec09 p {
+    margin: 0 20px;
+    margin-bottom: 30px;
+}
+/* Sec 9 End =============================================================================== */
+
+
+
+
+/* Sec 10 End =============================================================================== */
+
+#sec10 .row .doob h3 {
+    padding-right: 22%;
+    margin-bottom: 30px;
+}
+
+#sec10 .col-lg-2{
+    margin-bottom: 20px;
+}
+
+#sec10 .row .last a {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+#sec10 .row {
+    padding: 50px 0;
+}
+
+
+/* Sec 10 End =============================================================================== */
+
+
+@media (min-width: 576px) and (max-width: 768px){
+
+    #sec07 .image {
+        width: 400px;
+        height: 400px;
+    }
+
+}
+
+}
+
+/* Md End ++++++++++++++++++++++++++++++++++++++++++++++++++++++-------------------------- */
+
+
+
+
+
+/* SM Start ++++++++++++++++++++++++++++++++++++++++++++++++++++++-------------------------- */
+
+
+@media (max-width: 575.98px) { 
+    /* Banner Start =============================================================================== */
+    
+    .mode .dark {
+        margin-bottom: -15px;
+    }
+    
+    #banner .overlay{
+        padding: 0;
+        padding-top: 120px;
+        padding-bottom: 20px;
+    }
+    #banner h2 {
+        font-size: 14px;
+    }
+
+    #banner h1 {
+        font-size: 35px;
+    }
+    #banner p {
+        font-size: 18px;
+        padding: 0;
+        margin: 0 -60px;
+    }
+    
+    .ban_btn .btn_1 {
+        padding: 0 20px;
+        height: 50px;
+        line-height: 50px;
+        margin-top: 10px;
+    }
+
+    .ban_btn .btn_2 {
+        padding: 0 20px;
+        height: 50px;
+        line-height: 40px;
+        margin-top: 10px;
+    }
+/* Banner End =============================================================================== */
+
+
+/* Sec 1 Start =============================================================================== */
+
+#sec01 .col{
+    padding: 0 22px;
+}
+
+/* Sec 1 End =============================================================================== */
+
+
+/* Sec 2 Start =============================================================================== */
+
+#sec02 .row h2{
+    padding: 0;
+    padding-bottom: 20px;
+    font-size: 26px;
+    margin: 0 -20px ;
+}
+#sec02 .row p{
+    padding: 0;
+    padding-bottom: 20px;
+    margin: 0 -60px;
+}
+
+#sec02 .s2btns{
+    margin: 0 -20px;
+    padding-bottom: 50px;
+}
+
+/* Sec 2 End =============================================================================== */
+
+
+/* Sec 3 Start =============================================================================== */
+
+#sec03 .row .col-4{
+    width: 100%;
+}
+
+#sec03 a{
+    padding: 0 20px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 10px;
+}
+
+/* Sec 3 End =============================================================================== */
+
+
+
+/* Sec 5 Start =============================================================================== */
+
+.sec5 .working_container {
+    padding-left: 38px;
+}
+
+.sec5 .inner_part {
+    flex-direction: column-reverse;
+    margin-right: 10px;
+}
+
+#sec05 .info_image{
+    padding-bottom: 40px;
+}
+
+.sec5 .inner_part h4 {
+    margin-top: 0;
+}
+
+/* Sec 5 End =============================================================================== */
+
+
+
+/* Sec 6 Start =============================================================================== */
+
+.sec6 .icon i {
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.sec6 h2 {
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 35px;
+}
+
+/* Sec 6 End =============================================================================== */
+
+
+/* Sec 7 End =============================================================================== */
+
+#sec07{
+    padding: 0;
+    padding-top: 20px;
+}
+
+#sec07 .for_mobile_slider{
+    flex-direction: column-reverse;
+}
+
+#sec07 .image {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+#sec07 .info p {
+    font-size: 24px;
+}
+
+.prevArr , .nextArr{
+    display: none !important; 
+}
+
+
+#sec07 .slider_items {
+    margin: 10px 0;
+}
+
+/* Sec 7 End =============================================================================== */
+
+
+
+/* Sec 8 End =============================================================================== */
+
+#sec08 #sec02 .row h2 {
+    margin: 0 -60px;
+}
+
+.sec8 .box .info h5 {
+    width: 250px;
+}
+/* Sec 8 End =============================================================================== */
+
+
+
+
+
+/* Sec 9 Start =============================================================================== */
+
+#sec09 .container {
+    width: 90%;
+}
+
+#sec09 h2 {
+    font-size: 26px;
+    margin: 0 20px;
+    margin-bottom: 30px;
+}
+
+
+#sec09 p {
+    margin: 0 20px;
+    margin-bottom: 30px;
+}
+/* Sec 9 End =============================================================================== */
+
+
+/* Sec 10 End =============================================================================== */
+
+#sec10 .row .doob h3 {
+    padding-right: 22%;
+    margin-bottom: 30px;
+}
+
+#sec10 .col-lg-2{
+    margin-bottom: 20px;
+}
+
+#sec10 .row .last a {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+#sec10 .row {
+    padding: 50px 0;
+}
+
+
+/* Sec 10 End =============================================================================== */
+
+
+/* Footer Start =============================================================================== */
+
+footer .last ul{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer .para p{
+    text-align: center;
+}
+footer .afterr::before {
+    left: -20px;
+}
+}
+
+/* Footer End =============================================================================== */
+
+
+
+
+@media (min-width: 498px) and (max-width: 575.98px){
+    #sec01 .col {
+        padding: 0;
+    }
+
+    #sec03 .s3box{
+        flex-basis: 50%;
+    }
+
+    #sec07 .image {
+        width: 350px;
+        height: 350px;
+    }
+
+    .sec8 .box {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+
+}
+
+/* SM End ++++++++++++++++++++++++++++++++++++++++++++++++++++++-------------------------- */
