@@ -258,25 +258,25 @@ body.darkmode h2 , h5{
 
 /* Navbar start */
 
-#navbar{
-    border-bottom: 1px solid  #a1a1a133;
+#navbar {
     position: absolute;
-    left: 0;
     top: 0;
+    left: 0;
     width: 100%;
     z-index: 999;
-    transition: all linear .3s;
+    border-bottom: 1px solid black;
 }
 
-#navbar .sticky{
+
+#navbar.sticky{
     position: fixed;
-    color: white;
-    animation: sticky 2s linear;
+    background-color: red;
+    animation: anim 2s linear;
 }
 
-@keyframes sticky{
+@keyframes anim{
     0%{
-        top: -100px;
+        top: -150px;
     }
     100%{
         top: 0;
@@ -292,7 +292,13 @@ body.darkmode h2 , h5{
     font-size: 16px;
     text-transform: capitalize;
 }
-
+.nav_btns{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
 .nav_btn{
     display: inline-block;
 }
@@ -308,17 +314,13 @@ body.darkmode h2 , h5{
     font-weight: 500;
 }
 
-.mode .dark img{
-    width: 20px;
-    height: 20px;
-}
+
 
 .mode{
-    display: inline-block;
-}
-.mode .dark{
     background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-pink) 75%, var(--color-secondary) 100%) 95%/200% 100%;
     border-radius: 50%;
+    width: 30px;
+    height: 30px;
     margin-left: 15px;
     padding: 10px;
     display: flex;
@@ -530,7 +532,8 @@ body.darkmode h2 , h5{
 }
 
 #sec01 .col:hover{
-    padding-bottom: 20px;
+    /* margin-top: 10px; */
+    transform: translateY(-10px);
 }
 
 

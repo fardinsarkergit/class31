@@ -8,7 +8,7 @@ let navbar = document.getElementById("navbar");
 
 window.addEventListener("scroll" , function(){
   let value = window.scrollY;
-  if (value > 100 ){
+  if (value > 400 ){
     navbar.classList.add("sticky")
   }
   else{
@@ -17,10 +17,7 @@ window.addEventListener("scroll" , function(){
 })
 
 
-
-
- 
-// Sticky Meny End
+// Sticky Menu End
 
 // Dark mode Start
 
@@ -36,14 +33,14 @@ mode.addEventListener("click" , function(){
   body.classList.toggle("darkmode");
 
   if(image === 0){
-    mode.setAttribute("src" , "image/sun.svg")
-    link.setAttribute("href" , "css/dark-style.css")
+    dark.setAttribute("src" , "image/sun.svg")
+    link.setAttribute("href" , "CSS/dark-style.css")
     image = 1
   }
 
   else{
-    mode.setAttribute("src" , "image/moon.svg")
-    link.setAttribute("href" , "css/style.css")
+    dark.setAttribute("src" , "image/moon.svg")
+    link.setAttribute("href" , "CSS/style.css")
     image = 0
   }
 
@@ -117,4 +114,5 @@ $(function(){
 
 
       // AOS js
+      
       AOS.init();
