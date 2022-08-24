@@ -98,6 +98,8 @@ $(function(){
     $(this).addClass("active")
   });
 });
+ 
+var mixer = mixitup('.portfolio_filter');
 
 // Buttons End =================
 

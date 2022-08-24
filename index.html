@@ -172,7 +172,8 @@
           </div>
 
           <!-- Mobile part start -->
-          <!-- <div class="nav_btns d-lg-none">
+
+          <div class="nav_btns d-lg-none">
             <div class="nav_btn">
               <a href="#">Buy now</a>
             </div>
@@ -182,7 +183,8 @@
             <div class="mode">
               <img class="dark" src="image/sun.svg" alt="image">
             </div>
-          </div> -->
+          </div>
+
           <!-- Mobile part end -->
           
 
@@ -261,10 +263,10 @@
               <p>We provide company and finance service for
                 startups and company business.</p>
                 <div class="s2btns">
-                  <button class="btn active mx-2">All  </button>
-                  <button class="btn  mx-2 "> Design </button>
-                  <button class="btn  mx-2 ">Art  </button>
-                  <button class="btn  mx-2 "> Development </button>
+                  <button class="btn active mx-2" data-filter="all">All  </button>
+                  <button class="btn  mx-2" data-filter=".design"> Design </button>
+                  <button class="btn  mx-2" data-filter=".art">Art  </button>
+                  <button class="btn  mx-2" data-filter=".development"> Development </button>
                 </div>
             </div>
           </div>
@@ -277,39 +279,39 @@
     <!-- Sec 03 end -->
       <div id="sec03">
         <div class="container">
-          <div class="row">
+          <div class="row portfolio_filter">
 
-            <div class="col-lg-4 col-sm-6 s3box">
+            <div class="col-lg-4 col-sm-6 s3box mix design development">
               <img src="image/portfolio-01.jpg"  class="img-fluid s3img" alt="image">
               <h4>  App Development </h4>
               <p>  Development </p>
             </div>
 
-            <div class="col-lg-4 col-sm-6 s3box">
+            <div class="col-lg-4 col-sm-6 s3box mix design art">
               <img src="image/portfolio-02.jpg"  class="img-fluid s3img" alt="image">
               <h4>   Business Development </h4>
               <p> Design </p>
             </div>
 
-            <div class="col-lg-4 col-sm-6 s3box">
+            <div class="col-lg-4 col-sm-6 s3box mix design art development">
               <img src="image/portfolio-03.jpg"  class="img-fluid s3img" alt="image">
               <h4>  Photoshop Design </h4>
               <p> Art </p>
             </div>
 
-            <div class="col-lg-4 col-sm-6 s3box">
+            <div class="col-lg-4 col-sm-6 s3box mix art development">
               <img src="image/portfolio-04.jpg"  class="img-fluid s3img" alt="image">
               <h4>   Native Application </h4>
               <p>  Development </p>
             </div>
 
-            <div class="col-lg-4 col-sm-6 s3box">
+            <div class="col-lg-4 col-sm-6 s3box mix design art">
               <img src="image/portfolio-05.jpg"  class="img-fluid s3img" alt="image">
               <h4>  React Development </h4>
               <p>  Application </p>
             </div>
 
-            <div class="col-lg-4 col-sm-6 s3box">
+            <div class="col-lg-4 col-sm-6 s3box mix design art development ">
               <img src="image/portfolio-06.jpg"  class="img-fluid s3img" alt="image">
               <h4>   App Installment </h4>
               <p>  Photoshop </p>
@@ -759,6 +761,8 @@
       <script src="js/jquery-3.6.0.min.js"></script>
 
       <script src="js/feather.min.js"></script>
+
+      <script src="js/mixitup.min.js"></script>
       
       <script src="js/bootstrap.bundle.min.js"></script>
       

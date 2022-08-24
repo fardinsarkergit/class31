@@ -293,7 +293,6 @@ body.darkmode h2 , h5{
     text-transform: capitalize;
 }
 .nav_btns{
-    background-color: red;
     display: flex;
     align-items: center;
     justify-content: space-between;
