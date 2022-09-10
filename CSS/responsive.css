@@ -476,7 +476,7 @@ footer .afterr::before {
 
 
 
-/* SM Start ++++++++++++++++++++++++++++++++++++++++++++++++++++++-------------------------- */
+/* SM Start +++++++++++++------------------------------------------------------------------------------------------ */
 
 
 @media (max-width: 575.98px) { 
@@ -720,7 +720,7 @@ footer .afterr::before {
 
 
 
-@media (min-width: 498px) and (max-width: 575.98px){
+@media (min-width: 498px) and (max-width: 575.98px) {
     #sec01 .col {
         padding: 0;
     }
